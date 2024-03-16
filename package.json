@@ -1,0 +1,16 @@
+{
+  "name": "rest-rant",
+  "version": "1.0.0",
+  "description": "Creating a model restuarant webpage using lessons learned from Back-End coding class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dot": "^1.1.3",
+    "env": "^0.0.2"
+  }
+}
