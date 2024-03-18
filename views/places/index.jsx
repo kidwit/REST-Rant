@@ -1,5 +1,5 @@
 const React = require('react')
-const Def = require('./default')
+const Def = require('../default')
 
 function index () {
     return (
@@ -11,3 +11,4 @@ function index () {
     )
   }
   
+  module.exports = index

@@ -1,8 +1,9 @@
-const router = require('express').Router()
+const express = require('express');
+const router = express.Router();
 
 // GET /places
-app.get('/', (req, res) => {
-    res.render('places/index')
-  })
-  
-module.exports = router
+router.get('/', (req, res) => {
+    res.render('places/index');
+});
+
+module.exports = router;
