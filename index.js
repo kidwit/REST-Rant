@@ -1,13 +1,13 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-
 app.set('view engine', 'jsx')
 app.engine('jsx',require('express-react-views').createEngine())
+app.use(express.static('public'))
 
 // Import the places router
 const placesRouter = require('./controllers/places');
-// Mount the places router
+//controllers and routes
 app.use('/places', placesRouter);
 
 app.get('/', (req, res) => {
